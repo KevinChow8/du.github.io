@@ -6,13 +6,16 @@ Hi! This is Dudu's website. I want to record my notes here.
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ## Personal pursue
-### 1. CFA
-### 2. Research
-### 3. Industrial
-### 4. Photographing
-### 5. Education
-### 6. Media
-### 7. Health
+```markdown
+
+- CFA
+- Research
+- Industrial
+- Photographing
+- Education
+- Media
+- Health
+```
 
 
 ## Note list
