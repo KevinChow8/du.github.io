@@ -1,8 +1,29 @@
-## Welcome to GitHub Pages
+## Welcome to Dudu's pages
 
 You can use the [editor on GitHub](https://github.com/KevinChow8/du.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
+Hi! This is Dudu's website. I want to record my notes here. 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+## Personal pursue
+### 1. CFA
+### 2. Research
+### 3. Industrial
+### 4. Photographing
+### 5. Education
+### 6. Media
+### 7. Health
+
+
+## Note list
+### 1. Quantum esspresso installation
+### 2. Gromacs installation
+### 3. Other installation
+
+
+
+Markdown is a lightwf
+
 
 ### Markdown
 
