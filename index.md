@@ -3,10 +3,10 @@
 Hi! This is Dudu's website, a personal webpage mained by Kevin, who wants to record some useful notes here. 
 
 ## About me
-```markdown
-Email: zhou.wenchong@yahoo.com
 [Google Scholar](https://scholar.google.com/citations?user=dYFXUyoAAAAJ&hl=zh-CN)
 [CityU Scholar](https://scholars.cityu.edu.hk/en/persons/wenchong-zhou(e6c7e700-4033-4a0b-8f86-4a07bb91658d).html)
+```markdown
+Email: zhou.wenchong@yahoo.com
 ```
 
 ## Personal pursue
