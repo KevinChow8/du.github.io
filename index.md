@@ -16,13 +16,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 ## Note list
-### 1. Quantum esspresso installation
-### 2. Gromacs installation
-### 3. Other installation
+```markdown
+1. Quantum Espresso installation
+2. Gromacs installation
+3. Other installation
+```
 
 
-
-Markdown is a lightwf
 
 
 ### Markdown
