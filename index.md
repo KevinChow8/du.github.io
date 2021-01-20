@@ -27,6 +27,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 
+## Break Line
+
+
+## Welcome to Dudu's pages
+
+You can use the [editor on GitHub](https://github.com/KevinChow8/du.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+
+Hi! This is Dudu's website. I want to record my notes here. 
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
 
 ### Markdown
 
