@@ -103,7 +103,7 @@ cd  /home/wczhou3/LiVO3/Na8
 mpiexec  -n  16   /home/wczhou3/qe6/bin/bin/pw.x < Na8V8O24.in > Na8V8O24.out
 ```
 The input file content:
-'''
+```markdown
 &CONTROL
   prefix='Na8',
   outdir='/home/wczhou3/LiVO3/Na8/temp/',
