@@ -28,6 +28,7 @@ Email: zhou.wenchong@yahoo.com
 ```
 
 ## Quantum Espresso installation
+Here are the detailed steps for installation of QE 6.0 using gcc complier.
 ```markdown
 Step 1. Download quantum espresso 6.0 and upload to the SEE home directory
 
