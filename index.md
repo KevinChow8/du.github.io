@@ -56,7 +56,7 @@ Finally, in your scirpt file, include following commands in:
 module load openmpi/3.1.4_gcc
 setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/share/apps/intel_xe/mkl/lib/intel64/
 ```
-
+Note that the pseudo files in the pseudo folder is not complete and you need to add the specific pseudo files in that folder later on.
 
 
 
