@@ -51,8 +51,7 @@ make all
 or
 make -j32 pw pp
 
-2021.01.23.20.23
-
+Around 11 minutes to finish the installation.
 Finally, in your scirpt file, include following commands in:
 module load openmpi/3.1.4_gcc
 setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/share/apps/intel_xe/mkl/lib/intel64/
