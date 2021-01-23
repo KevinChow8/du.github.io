@@ -27,7 +27,36 @@ Email: zhou.wenchong@yahoo.com
 3. Other installation
 ```
 
+## Quantum Espresso installation
+```markdown
+Step 1. Download quantum espresso 6.0 and upload to the SEE home directory
 
+Step 2. Enter command to unzip the installation package
+tar zxvf q-e-qe-6.0.0.tar.gz
+
+Step 3. Rename the folder to an easy one (optional)
+
+Step 4. Command
+cd /home/wczhou3/qe60
+
+Step 5. Load module
+module load openmpi/3.1.4_gcc
+module list
+
+Step 6. Command for configure
+./configure CC=mpicc FC=mpif90 F77=mpif90
+
+Step 7. Install
+make all
+or
+make -j32 pw pp
+
+2021.01.23.20.23
+
+Finally, in your scirpt file, include following commands in:
+module load openmpi/3.1.4_gcc
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/share/apps/intel_xe/mkl/lib/intel64/
+```
 
 
 
