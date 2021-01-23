@@ -59,6 +59,51 @@ setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/share/apps/intel_xe/mkl/lib/intel64/
 ```
 Note that the pseudo files in the pseudo folder is not complete and you need to add the specific pseudo files in that folder later on.
 
+The example content of the script (name.sh) is shown below:
+```markdown
+#!/bin/csh
+#
+#
+#PBS -l nodes=1:ppn=16
+#PBS -j oe 
+#PBS -k oe
+#
+#******** The lines above must be included in any job script
+#******** 'nodes' is number of nodes((max. is 4) and 'ppn' is number of CPU per node(max. is 8).
+#Therefore nodes*ppn given the total number of CPU that must specified in 'mpiexec' 
+#
+#******** (e.g. if nodes=2 and ppn=8, then yield to 'mpiexec -n 16 ./wrf.exe')
+#
+#******** Max. number of nodes per job is limited to 4 (i.e. 32 CPUs).
+#
+#This is an example script test.sh
+#
+#Submit Job: qsub -j oe -k oe ./test.sh
+#(Log files could be found at your home directory)
+#
+#Monitor Job State: qstat
+#Where the meaning of 'State' is: 
+#	Q -- job is queued   
+#	R -- job is running
+#  	H -- Job is held
+#
+#Delete Job: qdel <job number>
+#
+
+module load openmpi/3.1.4_gcc
+setenv LD_LIBRARY_PATH ${LD_LIBRARY_PATH}:/share/apps/intel_xe/mkl/lib/intel64/
+
+#Must 'cd' to the working directory of the script as shown below to run your job 
+#setenv PATH /share/apps/mpich2_ifort-1.3.2/bin/:"$PATH"
+#setenv
+which mpiexec
+module list
+cd  /home/wczhou3/LiVO3/Na8
+
+mpiexec  -n  16   /home/wczhou3/qe6/bin/bin/pw.x < Na8V8O24.in > Na8V8O24.out
+
+
+```
 
 
 
