@@ -43,7 +43,30 @@ rm -rf qe60
 ## Quantum Espresso Installation
 Installation of QE 6.0 using openmpi complier.
 ```markdown
-Step 1. Example
+Step 1. Check available modules
+module avail
+
+Step 2. Download modules
+module load openmpi/1.6.4_ifort
+module load Intel-Fortran-Compiler/xe2019.3.0.591490
+module load Intel-C-Compiler/xe2019.3.0.591490
+
+Then, do
+module list
+
+Step 3. Enter command to unzip the installation package
+tar zxvf q-e-qe-6.0.0.tar.gz
+
+Step 4. Rename the folder to an easy one (optional)
+
+Step 5. Open to the installation package folder
+cd /home/wczhou3/qe6-openmpi
+
+Step 6. Command for configure
+./configure
+
+Step 7. Install
+make all
 ```
 
 ## Quantum Espresso installation
