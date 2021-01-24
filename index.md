@@ -2,8 +2,8 @@
 
 Hi! This is Dudu's website, a personal webpage mained by Kevin, who wants to record some useful notes here. 
 
-## About me
-For my publication, please refer to [Google Scholar](https://scholar.google.com/citations?user=dYFXUyoAAAAJ&hl=zh-CN) and [CityU Scholar](https://scholars.cityu.edu.hk/en/persons/wenchong-zhou(e6c7e700-4033-4a0b-8f86-4a07bb91658d).html).
+## Biography
+Wenchong ZHOU is a PhD student at the School of Energy and Environment at the City University of Hong Kong. He received his undergraduate degree in Materials Science from the Central South University, master degree in Materials Science from the University of Tsukuba and Ph.D in School of Energy and Environment from CityU. Prior to joining CityU, he was junior research in NIMS of Japan. For my publication, please refer to [Google Scholar](https://scholar.google.com/citations?user=dYFXUyoAAAAJ&hl=zh-CN) and [CityU Scholar](https://scholars.cityu.edu.hk/en/persons/wenchong-zhou(e6c7e700-4033-4a0b-8f86-4a07bb91658d).html).
 ```markdown
 Email: zhou.wenchong@yahoo.com
 ```
@@ -31,7 +31,11 @@ Example
 ```markdown
 Step 1. Example
 ```
-
+## Often used shortcut keyboard
+In word
+```markdown
+alt + += to make the plain text into equation text
+```
 
 
 ## About Linux Usage
