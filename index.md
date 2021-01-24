@@ -68,6 +68,12 @@ Step 6. Command for configure
 Step 7. Install
 make all
 ```
+Add the following lines in the script file:
+module load openmpi/1.6.4_ifort
+module load Intel-Fortran-Compiler/xe2019.3.0.591490
+module load Intel-C-Compiler/xe2019.3.0.591490
+
+
 
 ## Quantum Espresso installation
 Here are the detailed steps for installation of QE 6.0 using gcc complier.
