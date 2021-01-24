@@ -26,6 +26,25 @@ Email: zhou.wenchong@yahoo.com
 2. Gromacs installation
 3. Other installation
 ```
+## Example
+Example
+```markdown
+Step 1. Example
+```
+
+
+
+## About Linux Usage
+Here, I list some useful command in terminal
+```markdown
+To delete, use command
+rm -rf qe60
+```
+## Quantum Espresso Installation
+Installation of QE 6.0 using openmpi complier.
+```markdown
+Step 1. Example
+```
 
 ## Quantum Espresso installation
 Here are the detailed steps for installation of QE 6.0 using gcc complier.
